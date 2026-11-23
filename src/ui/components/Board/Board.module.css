@@ -1,0 +1,37 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 20px;
+}
+
+.word {
+  display: flex;
+  gap: 4px;
+}
+
+.cell {
+  width: 2rem;
+  height: 2.4rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+}
+
+.symbol {
+  align-self: flex-end;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  .cell {
+    width: 1.6rem;
+    height: 2rem;
+    font-size: 1.05rem;
+  }
+}

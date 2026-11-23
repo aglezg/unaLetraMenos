@@ -1,0 +1,43 @@
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(0, 1fr));
+  gap: 6px;
+  width: 100%;
+  max-width: 520px;
+}
+
+.key {
+  min-height: 44px;
+  font-weight: 700;
+  color: var(--text);
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.key:not(:disabled):hover {
+  border-color: var(--accent);
+}
+
+.key:disabled {
+  cursor: default;
+}
+
+.hit {
+  color: #fff;
+  background: var(--hit);
+  border-color: var(--hit);
+}
+
+.miss {
+  color: #fff;
+  background: var(--miss);
+  border-color: var(--miss);
+}
+
+@media (max-width: 480px) {
+  .keyboard {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+}

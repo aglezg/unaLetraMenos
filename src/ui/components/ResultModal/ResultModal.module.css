@@ -1,0 +1,40 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: var(--overlay);
+}
+
+.modal {
+  width: 100%;
+  max-width: 380px;
+  padding: 24px;
+  text-align: center;
+  background: var(--surface);
+  border-top: 6px solid var(--accent);
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.won {
+  border-top-color: var(--hit);
+}
+
+.lost {
+  border-top-color: var(--miss);
+}
+
+.button {
+  padding: 10px 18px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
