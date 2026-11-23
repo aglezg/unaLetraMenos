@@ -1,0 +1,73 @@
+src/ui/components/Board/Board.module.css
+  s_17b91a1a2c13d5::t_357b344c26cebf 1-37
+src/ui/components/Board/Board.tsx
+  s_17b91a1a2c13d5::t_e96b189383bc2f 1-32
+src/ui/components/Keyboard/Keyboard.module.css
+  s_17b91a1a2c13d5::t_7d8aca214f92a3 1-43
+src/ui/components/Keyboard/Keyboard.tsx
+  s_17b91a1a2c13d5::t_e1ab91b6319971 1-31
+src/ui/components/LivesCounter/LivesCounter.module.css
+  s_17b91a1a2c13d5::t_cf143fc2b07f1c 1-5
+src/ui/components/LivesCounter/LivesCounter.tsx
+  s_17b91a1a2c13d5::t_2cb6dd71f85d2b 1-9
+src/ui/components/ResultModal/ResultModal.module.css
+  s_17b91a1a2c13d5::t_6f29c1da02e32a 1-40
+src/ui/components/ResultModal/ResultModal.tsx
+  s_17b91a1a2c13d5::t_3996a27ffab5e4 1-33
+src/ui/components/SolveForm/SolveForm.module.css
+  s_17b91a1a2c13d5::t_fc07e3df0d2e28 1-32
+src/ui/components/SolveForm/SolveForm.tsx
+  s_17b91a1a2c13d5::t_66d6cee3b3569d 1-33
+src/ui/components/StatsBar/StatsBar.module.css
+  s_17b91a1a2c13d5::t_84ef5d7824ec48 1-9
+src/ui/components/StatsBar/StatsBar.tsx
+  s_17b91a1a2c13d5::t_6517b071873475 1-15
+src/ui/container/HangmanContainer/HangmanContainer.ts
+  s_17b91a1a2c13d5::t_4411f306f955e1 1-34
+src/ui/context/HangmanContext/HangmanContext.ts
+  s_17b91a1a2c13d5::t_4bf0ea9f95508b 1-10
+src/ui/context/HangmanProvider/HangmanProvider.tsx
+  s_17b91a1a2c13d5::t_85f781f7e95fb7 1-12
+src/ui/hooks/useHangmanGame/useHangmanGame.ts
+  s_17b91a1a2c13d5::t_3dca42b7c16e42 1-45
+src/ui/main.tsx
+  s_17b91a1a2c13d5::t_2995c9211311f7 1-16
+src/ui/pages/GamePage/GamePage.module.css
+  s_17b91a1a2c13d5::t_3577ebc98290f5 1-22
+src/ui/pages/GamePage/GamePage.tsx
+  s_17b91a1a2c13d5::t_0f3d9e669505f3 1-27
+src/ui/styles/global.css
+  s_17b91a1a2c13d5::t_ad0e4037175128 1-43
+tests/ui/components/Board/Board.test.tsx
+  s_17b91a1a2c13d5::t_7c0966e0e1ea66 1-15
+tests/ui/components/Keyboard/Keyboard.test.tsx
+  s_17b91a1a2c13d5::t_cb1c1f634a8aa3 1-48
+tests/ui/components/LivesCounter/LivesCounter.test.tsx
+  s_17b91a1a2c13d5::t_45e474b19d3a10 1-10
+tests/ui/components/ResultModal/ResultModal.test.tsx
+  s_17b91a1a2c13d5::t_40fc1c672ac153 1-30
+tests/ui/components/SolveForm/SolveForm.test.tsx
+  s_17b91a1a2c13d5::t_0ea62a63b7814d 1-21
+tests/ui/components/StatsBar/StatsBar.test.tsx
+  s_17b91a1a2c13d5::t_59f7205d33bc5a 1-11
+tests/ui/hooks/useHangmanGame/useHangmanGame.test.tsx
+  s_17b91a1a2c13d5::t_a78b3936838c4c 1-41
+tests/ui/pages/GamePage/GamePage.test.tsx
+  s_17b91a1a2c13d5::t_2b9641e55c37f9 1-74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "d74af1de4b8f059744508e9ca0bfb7feb60e2051",
+  "prompts": {},
+  "sessions": {
+    "s_17b91a1a2c13d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1267fce1-adfb-4c2c-ad0f-285dee43b1cc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adrián González Galván <adriangonzalez@acidtango.com>"
+    }
+  }
+}
