@@ -1,0 +1,19 @@
+README.md
+  s_17b91a1a2c13d5::t_fa7fe62a2b67c7 1-78
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "16f479d38422cb96e3f30c044d10ce713bc703d4",
+  "prompts": {},
+  "sessions": {
+    "s_17b91a1a2c13d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1267fce1-adfb-4c2c-ad0f-285dee43b1cc",
+        "model": "unknown"
+      },
+      "human_author": "Adrián González Galván <adriangonzalez@acidtango.com>"
+    }
+  }
+}
