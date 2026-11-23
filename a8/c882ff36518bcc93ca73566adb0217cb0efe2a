@@ -1,0 +1,129 @@
+src/contexts/hangman/game/application/GameView/GameView.ts
+  s_17b91a1a2c13d5::t_73067eb999f8f1 1-22
+src/contexts/hangman/game/application/GameViewAssembler/GameViewAssembler.ts
+  s_17b91a1a2c13d5::t_32c64838bd4426 1-26
+src/contexts/hangman/game/application/GetCurrentGame/GetCurrentGame.ts
+  s_17b91a1a2c13d5::t_0c0224784b1806 1-14
+src/contexts/hangman/game/application/GuessLetter/GuessLetter.ts
+  s_17b91a1a2c13d5::t_ec08a7ca512969 1-28
+src/contexts/hangman/game/application/SolvePhrase/SolvePhrase.ts
+  s_17b91a1a2c13d5::t_7b91aecf76402f 1-25
+src/contexts/hangman/game/application/StartGame/StartGame.ts
+  s_17b91a1a2c13d5::t_954970b68a76e5 1-19
+src/contexts/hangman/game/domain/Alphabet/Alphabet.ts
+  s_17b91a1a2c13d5::t_a1ebb0e28ec407 1-11
+src/contexts/hangman/game/domain/Game/Game.ts
+  s_17b91a1a2c13d5::t_8c0ecc2c27300c 1-86
+src/contexts/hangman/game/domain/GameNotStartedError/GameNotStartedError.ts
+  s_17b91a1a2c13d5::t_845e228b8f6c59 1-6
+src/contexts/hangman/game/domain/GameRepository/GameRepository.ts
+  s_17b91a1a2c13d5::t_b7b7debda9ae20 1-7
+src/contexts/hangman/game/domain/GameStatus/GameStatus.ts
+  s_17b91a1a2c13d5::t_04ee942181c207 1-29
+src/contexts/hangman/game/domain/InvalidLetterError/InvalidLetterError.ts
+  s_17b91a1a2c13d5::t_acd8fb890403ca 1-6
+src/contexts/hangman/game/domain/InvalidLivesError/InvalidLivesError.ts
+  s_17b91a1a2c13d5::t_bb771bbf9048f8 1-6
+src/contexts/hangman/game/domain/InvalidPhraseError/InvalidPhraseError.ts
+  s_17b91a1a2c13d5::t_8f85680e40e448 1-6
+src/contexts/hangman/game/domain/Letter/Letter.ts
+  s_17b91a1a2c13d5::t_45e5092c5aea99 1-20
+src/contexts/hangman/game/domain/LetterStatus/LetterStatus.ts
+  s_17b91a1a2c13d5::t_50c4e8c1421289 1
+src/contexts/hangman/game/domain/Lives/Lives.ts
+  s_17b91a1a2c13d5::t_bb088ffa506761 1-24
+src/contexts/hangman/game/domain/Phrase/Phrase.ts
+  s_17b91a1a2c13d5::t_a943afeac358b6 1-30
+src/contexts/hangman/game/domain/SpanishTextNormalizer/SpanishTextNormalizer.ts
+  s_17b91a1a2c13d5::t_fcb6393d67df5f 1-16
+src/contexts/hangman/game/infrastructure/InMemoryGameRepository/InMemoryGameRepository.ts
+  s_17b91a1a2c13d5::t_fb5024a1e7b65e 1-15
+src/contexts/hangman/phrase/domain/PhrasePicker/PhrasePicker.ts
+  s_17b91a1a2c13d5::t_94214125d053d7 1-18
+src/contexts/hangman/phrase/domain/PhraseRepository/PhraseRepository.ts
+  s_17b91a1a2c13d5::t_f301f66cd2f7b2 1-3
+src/contexts/hangman/phrase/domain/RandomGenerator/RandomGenerator.ts
+  s_17b91a1a2c13d5::t_439213e573f3d8 1-4
+src/contexts/hangman/phrase/infrastructure/InMemoryPhraseRepository/InMemoryPhraseRepository.ts
+  s_17b91a1a2c13d5::t_8edadb6c5839b3 1-10
+src/contexts/hangman/phrase/infrastructure/InMemoryPhraseRepository/spanishProverbs.ts
+  s_17b91a1a2c13d5::t_3f7424bdd3331a 1-102
+src/contexts/hangman/phrase/infrastructure/MathRandomGenerator/MathRandomGenerator.ts
+  s_17b91a1a2c13d5::t_9c55ac85879504 1-7
+src/contexts/hangman/stats/application/GetPlayerStats/GetPlayerStats.ts
+  s_17b91a1a2c13d5::t_c6e46d0ba5ed74 1-10
+src/contexts/hangman/stats/application/PlayerStatsView/PlayerStatsView.ts
+  s_17b91a1a2c13d5::t_1e377a501c26ed 1-4
+src/contexts/hangman/stats/application/RecordGameResult/RecordGameResult.ts
+  s_17b91a1a2c13d5::t_2bf06eac087265 1-14
+src/contexts/hangman/stats/domain/InvalidPlayerStatsError/InvalidPlayerStatsError.ts
+  s_17b91a1a2c13d5::t_b7959e4b9a7113 1-6
+src/contexts/hangman/stats/domain/PlayerStats/PlayerStats.ts
+  s_17b91a1a2c13d5::t_f8022e3ed844f0 1-40
+src/contexts/hangman/stats/domain/PlayerStatsRepository/PlayerStatsRepository.ts
+  s_17b91a1a2c13d5::t_d1aa1dbb712eeb 1-6
+src/contexts/hangman/stats/infrastructure/LocalStoragePlayerStatsRepository/LocalStoragePlayerStatsRepository.ts
+  s_17b91a1a2c13d5::t_b09254131e56e6 1-24
+tests/contexts/hangman/game/application/GameViewAssembler/GameViewAssembler.test.ts
+  s_17b91a1a2c13d5::t_99e9ebda6212da 1-39
+tests/contexts/hangman/game/application/GetCurrentGame/GetCurrentGame.test.ts
+  s_17b91a1a2c13d5::t_3cbd775883eeb1 1-16
+tests/contexts/hangman/game/application/GuessLetter/GuessLetter.test.ts
+  s_17b91a1a2c13d5::t_c6b0a32a8aede8 1-49
+tests/contexts/hangman/game/application/HangmanTestContext.ts
+  s_17b91a1a2c13d5::t_540ab82cb7cb6e 1-30
+tests/contexts/hangman/game/application/SolvePhrase/SolvePhrase.test.ts
+  s_17b91a1a2c13d5::t_dc3410bdf21c15 1-32
+tests/contexts/hangman/game/application/StartGame/StartGame.test.ts
+  s_17b91a1a2c13d5::t_1226b9c9456eeb 1-18
+tests/contexts/hangman/game/domain/Alphabet/Alphabet.test.ts
+  s_17b91a1a2c13d5::t_3b0e11dbfd6a76 1-10
+tests/contexts/hangman/game/domain/Game/Game.test.ts
+  s_17b91a1a2c13d5::t_7395657e286f6e 1-127
+tests/contexts/hangman/game/domain/Game/GameMother.ts
+  s_17b91a1a2c13d5::t_a9a81badf7fd5f 1-22
+tests/contexts/hangman/game/domain/GameStatus/GameStatus.test.ts
+  s_17b91a1a2c13d5::t_e98d41648440d1 1-17
+tests/contexts/hangman/game/domain/Letter/Letter.test.ts
+  s_17b91a1a2c13d5::t_d657609dd2e853 1-28
+tests/contexts/hangman/game/domain/Lives/Lives.test.ts
+  s_17b91a1a2c13d5::t_04117f38df09b1 1-25
+tests/contexts/hangman/game/domain/Phrase/Phrase.test.ts
+  s_17b91a1a2c13d5::t_9d67e5fb8c874f 1-40
+tests/contexts/hangman/game/domain/SpanishTextNormalizer/SpanishTextNormalizer.test.ts
+  s_17b91a1a2c13d5::t_529808af51ddcf 1-32
+tests/contexts/hangman/game/infrastructure/InMemoryGameRepository/InMemoryGameRepository.test.ts
+  s_17b91a1a2c13d5::t_af1148614f4d93 1-24
+tests/contexts/hangman/phrase/domain/PhrasePicker/PhrasePicker.test.ts
+  s_17b91a1a2c13d5::t_7a58773c3ffad9 1-33
+tests/contexts/hangman/phrase/infrastructure/InMemoryPhraseRepository/InMemoryPhraseRepository.test.ts
+  s_17b91a1a2c13d5::t_78f3398ae116a8 1-28
+tests/contexts/hangman/stats/application/GetPlayerStats/GetPlayerStats.test.ts
+  s_17b91a1a2c13d5::t_ff558538f8aa9e 1-11
+tests/contexts/hangman/stats/application/RecordGameResult/RecordGameResult.test.ts
+  s_17b91a1a2c13d5::t_0ad42cb375f08e 1-18
+tests/contexts/hangman/stats/domain/PlayerStats/PlayerStats.test.ts
+  s_17b91a1a2c13d5::t_2ab6b3d2e704b8 1-41
+tests/contexts/hangman/stats/domain/PlayerStats/PlayerStatsMother.ts
+  s_17b91a1a2c13d5::t_a6f76d86284478 1-11
+tests/contexts/hangman/stats/infrastructure/InMemoryPlayerStatsRepository/InMemoryPlayerStatsRepository.ts
+  s_17b91a1a2c13d5::t_0969eb0a95bc8f 1-19
+tests/contexts/hangman/stats/infrastructure/LocalStoragePlayerStatsRepository/LocalStoragePlayerStatsRepository.test.ts
+  s_17b91a1a2c13d5::t_d866d4bb7a19e5 1-44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a8c882ff36518bcc93ca73566adb0217cb0efe2a",
+  "prompts": {},
+  "sessions": {
+    "s_17b91a1a2c13d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1267fce1-adfb-4c2c-ad0f-285dee43b1cc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adrián González Galván <adriangonzalez@acidtango.com>"
+    }
+  }
+}
