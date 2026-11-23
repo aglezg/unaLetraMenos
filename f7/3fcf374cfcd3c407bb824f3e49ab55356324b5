@@ -1,0 +1,43 @@
+.gitignore
+  s_17b91a1a2c13d5::t_8b4f8d8c228843 1-27
+.npmrc
+  s_17b91a1a2c13d5::t_7f18e1b17046ef 1
+eslint.config.js
+  s_17b91a1a2c13d5::t_7ba7994177b0c6 1-28
+index.html
+  s_17b91a1a2c13d5::t_5b50ba6a87dce9 1-12
+package.json
+  s_17b91a1a2c13d5::t_326244e2a8d8ff 1-37
+pnpm-lock.yaml
+  s_17b91a1a2c13d5::t_6e6ba79f4ae7bf 1-2882
+pnpm-workspace.yaml
+  s_17b91a1a2c13d5::t_fac0b4af918f46 1-2
+src/vite-env.d.ts
+  s_17b91a1a2c13d5::t_cde0762e54bd21 1
+tests/setup.ts
+  s_17b91a1a2c13d5::t_50b6ccd3256763 1-8
+tsconfig.app.json
+  s_17b91a1a2c13d5::t_bf3188d0a7c434 1-29
+tsconfig.json
+  s_17b91a1a2c13d5::t_d0b4d8467b20b6 1-7
+tsconfig.node.json
+  s_17b91a1a2c13d5::t_01089740031673 1-25
+vite.config.ts
+  s_17b91a1a2c13d5::t_5fb1a3eb64ccb5 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "f73fcf374cfcd3c407bb824f3e49ab55356324b5",
+  "prompts": {},
+  "sessions": {
+    "s_17b91a1a2c13d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1267fce1-adfb-4c2c-ad0f-285dee43b1cc",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Adrián González Galván <adriangonzalez@acidtango.com>"
+    }
+  }
+}
